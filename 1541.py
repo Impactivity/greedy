@@ -2,8 +2,6 @@
 import sys
 read = sys.stdin.readline
 
-
-
 # #solution 1 )
 # # 이 해결의 핵심 아이디어는 - 가 나오기 전까지 모든 수를 더하고 _sum1에 저장한다음
 # # -가 나오는 순간부터 _sum2에 저장하여 최종적으로 _sum1 - sum2 를 해준다.
