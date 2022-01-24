@@ -43,10 +43,7 @@ else :
 #             cnt += tmp // sugar[1]
 #             if inx != 0 : # 0이아닐때 처음에 뺀 5키로 수 inx 만큼 더해준다.
 #                 cnt += inx
-#         else: #3키로그램으로도 나누어 떨어지지 않을 때
-#             cnt = 999999
-#
-#         min_cnt = min(cnt, min_cnt)
+#             min_cnt = min(cnt, min_cnt)
 #         inx += 1
 #
 #     if min_cnt == 999999:
