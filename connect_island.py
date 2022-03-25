@@ -1,3 +1,4 @@
+# kruskal 알고리즘으로 구현
 def solution(n, costs):
     costs.sort(key = lambda k : k[2]) # 비용기준으로 오름차순 정렬
     nodes = set([costs[0][0]]) # 섬 간 연결을 확인하는 집합
